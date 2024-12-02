@@ -98,25 +98,28 @@ jupyter notebook Fash.ipynb
 
 1. Data Preprocessing and Transformations
    
-    * Images are resized to 16x16 pixels using transforms.Resize.
-    * Converted to tensors using transforms.ToTensor.
-    * The torchvision.datasets.FashionMNIST class is used to download and load the training and validation datasets.
+  * Images are resized to 16x16 pixels using transforms.Resize.
+  * Converted to tensors using transforms.ToTensor.
+  * The torchvision.datasets.FashionMNIST class is used to download and load the training and validation datasets.
 
 2. Model Architecture
 
-    * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
-    * Max Pooling Layer 1: Kernel size 2x2.
-    * Convolutional Layer 2: 32 filters, kernel size 5x5, padding of 2.
-    * Max Pooling Layer 2: Kernel size 2x2.
-    * Fully Connected Layer: Maps the flattened feature maps to 10 output classes.
+  * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
+  * Max Pooling Layer 1: Kernel size 2x2.
+  * Convolutional Layer 2: 32 filters, kernel size 5x5, padding of 2.
+  * Max Pooling Layer 2: Kernel size 2x2.
+  * Fully Connected Layer: Maps the flattened feature maps to 10 output classes.
 
 3. Loss Function
+   
   * `CrossEntropyLoss:` Calculates the difference between predicted probabilities and actual class labels.
 
 4. Optimizer
+   
   * `Stochastic Gradient Descent (SGD):` Optimizer with a learning rate of 0.1.
 
 5. Training and Validation
+   
   * `Training:` Uses the training dataset to minimize the cost (Cross-Entropy Loss).
   * `Validation:` Evaluates the model's generalization by calculating accuracy on the validation dataset.
     Training runs for 5 epochs.
