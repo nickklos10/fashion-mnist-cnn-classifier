@@ -96,16 +96,14 @@ jupyter notebook Fash.ipynb
 
 ## Implementation Details
 
-1. Data Preprocessing
+1. Data Preprocessing and Transformations
    
-  Transformations:
     * Images are resized to 16x16 pixels using transforms.Resize.
     * Converted to tensors using transforms.ToTensor.
     * The torchvision.datasets.FashionMNIST class is used to download and load the training and validation datasets.
 
 2. Model Architecture
 
-  The CNN consists of:
     * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
     * Max Pooling Layer 1: Kernel size 2x2.
     * Convolutional Layer 2: 32 filters, kernel size 5x5, padding of 2.
