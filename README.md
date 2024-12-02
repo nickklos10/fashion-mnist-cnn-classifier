@@ -3,6 +3,17 @@
 A convolutional neural network (CNN) designed to classify images from the Fashion-MNIST dataset. The model achieves high accuracy on the validation set, demonstrating its ability to learn and generalize fashion-related image data effectively.
 
 
+## Table of Contents
+
+- [Description](#description)
+- [Technologies Used](#technologies-used)
+- [Dataset](#dataset)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Implementation Details](#implementation-details)
+- [Results](#results)
+
+
 
 ## Description
 
@@ -92,7 +103,7 @@ jupyter notebook Fash.ipynb
     * Converted to tensors using transforms.ToTensor.
     * The torchvision.datasets.FashionMNIST class is used to download and load the training and validation datasets.
 
-3. Model Architecture
+2. Model Architecture
 
   The CNN consists of:
     * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
