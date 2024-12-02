@@ -3,7 +3,7 @@
 A convolutional neural network (CNN) designed to classify images from the Fashion-MNIST dataset. The model achieves high accuracy on the validation set, demonstrating its ability to learn and generalize fashion-related image data effectively.
 
 
-## Table of Contents
+### Table of Contents
 
 - [Description](#description)
 - [Technologies Used](#technologies-used)
