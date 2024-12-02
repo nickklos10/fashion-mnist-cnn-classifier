@@ -106,21 +106,21 @@ jupyter notebook Fash.ipynb
 2. Model Architecture
 
   The CNN consists of:
-    * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
-    * Max Pooling Layer 1: Kernel size 2x2.
-    * Convolutional Layer 2: 32 filters, kernel size 5x5, padding of 2.
-    * Max Pooling Layer 2: Kernel size 2x2.
-    * Fully Connected Layer: Maps the flattened feature maps to 10 output classes.
+    * `Convolutional Layer 1:` 16 filters, kernel size 5x5, padding of 2.
+    * `Max Pooling Layer 1:` Kernel size 2x2.
+    * `Convolutional Layer 2:` 32 filters, kernel size 5x5, padding of 2.
+    * `Max Pooling Layer 2:` Kernel size 2x2.
+    * `Fully Connected Layer:` Maps the flattened feature maps to 10 output classes.
 
 3. Loss Function
-  * CrossEntropyLoss: Calculates the difference between predicted probabilities and actual class labels.
+  * `CrossEntropyLoss:` Calculates the difference between predicted probabilities and actual class labels.
 
 4. Optimizer
-  * Stochastic Gradient Descent (SGD): Optimizer with a learning rate of 0.1.
+  * `Stochastic Gradient Descent (SGD):` Optimizer with a learning rate of 0.1.
 
 5. Training and Validation
-  * Training: Uses the training dataset to minimize the cost (Cross-Entropy Loss).
-  * Validation: Evaluates the model's generalization by calculating accuracy on the validation dataset.
+  * `Training:` Uses the training dataset to minimize the cost (Cross-Entropy Loss).
+  * `Validation:` Evaluates the model's generalization by calculating accuracy on the validation dataset.
     Training runs for 5 epochs.
 
 
@@ -130,10 +130,10 @@ jupyter notebook Fash.ipynb
 
 1. Performance Metrics:
 
-* Validation Accuracy: ~86% after 5 epochs.
-* Training Cost: Decreases steadily over epochs, indicating effective learning.
+* `Validation Accuracy:` ~86% after 5 epochs.
+* `Training Cost:` Decreases steadily over epochs, indicating effective learning.
   
 2. Training Visualization: The plot below illustrates the model's training process:
 
-* The red line represents the decreasing training cost.
-* The blue line represents the increasing validation accuracy.
+* `The red line` represents the decreasing training cost.
+* `The blue line` represents the increasing validation accuracy.
