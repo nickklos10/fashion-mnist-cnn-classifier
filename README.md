@@ -2,9 +2,11 @@
 
 A convolutional neural network (CNN) designed to classify images from the Fashion-MNIST dataset. The model achieves high accuracy on the validation set, demonstrating its ability to learn and generalize fashion-related image data effectively.
 
+
 ### Description
 
 This project implements a deep learning model using Convolutional Neural Networks (CNNs) to classify the Fashion-MNIST dataset into 10 different categories of clothing and accessories. The project includes the dataset preprocessing pipeline, CNN architecture, training loop, validation performance evaluation, and visualizations of cost and accuracy over epochs.
+
 
 ### Technologies Used
 
@@ -15,6 +17,8 @@ The project is implemented using the following technologies:
 * `Torchvision:` For accessing the Fashion-MNIST dataset and applying data transformations.
 * `Matplotlib:` Visualization library for plotting training metrics.
 * `Jupyter Notebook:` For interactive development and experimentation.
+
+
 
 ### Dataset
 
@@ -33,12 +37,14 @@ The project uses the Fashion-MNIST dataset, which consists of grayscale images o
   * Ankle boo
 
 
+
 ### Features
 
 - A CNN with two convolutional layers, max-pooling, and one fully connected layer.
 - Uses Cross-Entropy Loss for classification and Stochastic Gradient Descent (SGD) optimizer.
 - Visualization of training cost and validation accuracy over epochs.
 - Achieves validation accuracy of ~86% in 5 epochs.
+  
 
 
 ### Setup and Installation
@@ -66,8 +72,9 @@ pip install -r requirements.txt
 4. Run the Training Script:
 
 ```bash
-python main.py
+jupyter notebook Fash.ipynb
 ```
+
 
 
 ### Implementation Details
@@ -98,6 +105,7 @@ python main.py
   * Training: Uses the training dataset to minimize the cost (Cross-Entropy Loss).
   * Validation: Evaluates the model's generalization by calculating accuracy on the validation dataset.
     Training runs for 5 epochs.
+
 
 
 ### Results
