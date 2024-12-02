@@ -3,12 +3,14 @@
 A convolutional neural network (CNN) designed to classify images from the Fashion-MNIST dataset. The model achieves high accuracy on the validation set, demonstrating its ability to learn and generalize fashion-related image data effectively.
 
 
-### Description
+
+## Description
 
 This project implements a deep learning model using Convolutional Neural Networks (CNNs) to classify the Fashion-MNIST dataset into 10 different categories of clothing and accessories. The project includes the dataset preprocessing pipeline, CNN architecture, training loop, validation performance evaluation, and visualizations of cost and accuracy over epochs.
 
 
-### Technologies Used
+
+## Technologies Used
 
 The project is implemented using the following technologies:
 
@@ -20,7 +22,8 @@ The project is implemented using the following technologies:
 
 
 
-### Dataset
+
+## Dataset
 
 The project uses the Fashion-MNIST dataset, which consists of grayscale images of size 28x28 pixels, representing 10 classes of clothing and accessories. Each class contains 6,000 training images and 1,000 test images.
 
@@ -38,7 +41,8 @@ The project uses the Fashion-MNIST dataset, which consists of grayscale images o
 
 
 
-### Features
+
+## Features
 
 - A CNN with two convolutional layers, max-pooling, and one fully connected layer.
 - Uses Cross-Entropy Loss for classification and Stochastic Gradient Descent (SGD) optimizer.
@@ -47,7 +51,8 @@ The project uses the Fashion-MNIST dataset, which consists of grayscale images o
   
 
 
-### Setup and Installation
+
+## Setup and Installation
 
 1. Clone the Repository:
 
@@ -77,7 +82,8 @@ jupyter notebook Fash.ipynb
 
 
 
-### Implementation Details
+
+## Implementation Details
 
 1. Data Preprocessing
    
@@ -108,7 +114,8 @@ jupyter notebook Fash.ipynb
 
 
 
-### Results
+
+## Results
 
 1. Performance Metrics:
 
