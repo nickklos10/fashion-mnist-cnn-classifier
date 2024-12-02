@@ -104,11 +104,11 @@ jupyter notebook Fash.ipynb
 
 2. Model Architecture
 
-  * Convolutional Layer 1: 16 filters, kernel size 5x5, padding of 2.
-  * Max Pooling Layer 1: Kernel size 2x2.
-  * Convolutional Layer 2: 32 filters, kernel size 5x5, padding of 2.
-  * Max Pooling Layer 2: Kernel size 2x2.
-  * Fully Connected Layer: Maps the flattened feature maps to 10 output classes.
+  * `Convolutional Layer 1:` 16 filters, kernel size 5x5, padding of 2.
+  * `Max Pooling Layer 1:` Kernel size 2x2.
+  * `Convolutional Layer 2:` 32 filters, kernel size 5x5, padding of 2.
+  * `Max Pooling Layer 2:` Kernel size 2x2.
+  * `Fully Connected Layer:` Maps the flattened feature maps to 10 output classes.
 
 3. Loss Function
    
